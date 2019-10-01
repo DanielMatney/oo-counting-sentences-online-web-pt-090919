@@ -20,9 +20,10 @@ class String
       if word == nil
         sentences.delete(word)
       end
-      puts sentences
     end
+    puts sentences
     sentences.join!
+    puts sentences
     sentences.length
   end
 end

@@ -22,6 +22,20 @@ class String
       end
     end
     sentences.join
+    sentences = self.split("?")
+    sentences.each do |word|
+      if word == nil
+        sentences.delete(word)
+      end
+    end
+    sentences.join
+    sentences = self.split("!")
+    sentences.each do |word|
+      if word == nil
+        sentences.delete(word)
+      end
+    end
+    sentences.join
     sentences.length
   end
 end

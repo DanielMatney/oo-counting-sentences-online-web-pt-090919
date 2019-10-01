@@ -21,7 +21,8 @@ class String
     sentences.each do |fragment|
       sentences1 << fragment.split("?")
     end
-    puts sentences1
-    sentences.length
+    sentences1.each do |fragment|
+      sentences2 << fragment.split("!")
+    sentences2.length
   end
 end

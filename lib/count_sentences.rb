@@ -35,7 +35,7 @@ class String
         sentences.delete(word)
       end
     end
-    sentences.join(" ")
-    p sentences.length
+    p sentences.join(" ")
+    sentences.length
   end
 end

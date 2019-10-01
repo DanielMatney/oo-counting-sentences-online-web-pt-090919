@@ -17,6 +17,9 @@ class String
   def count_sentences
     puts self
     sentences = self.split(".")
+    sentences.each do |sentence|
+      sentences << sentence.split("?")
+    end
     puts sentences
     sentences.length
   end

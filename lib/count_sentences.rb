@@ -21,7 +21,6 @@ class String
         sentences.delete(word)
       end
     end
-    sentences = sentences.join
     sentences = self.split("?")
     sentences.each do |word|
       if word == nil

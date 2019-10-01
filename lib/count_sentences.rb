@@ -22,16 +22,6 @@ class String
     sentences = sentences.join(".")
     sentences = sentences.split(".")
     sentences.reject! {|word| word == ""}
-   # sentences1 = []
-    #sentences2 = []
-    #sentences.each do |fragment|
-    #  sentences1 << fragment.split("?")
-    #end
-    #sentences1.each do |fragment|
-    #  sentences2 << fragment.split("!")
-    #end
-    #return sentences1
-    #sentences2.length
   sentences.length
   end
 end

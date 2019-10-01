@@ -21,7 +21,7 @@ class String
     sentences = sentences.split("!")
     sentences = sentences.join(".")
     sentences = sentences.split(".")
-    sentences.reject {|word| if word == nil}
+    sentences.reject {|word| if word == nil end}
    # sentences1 = []
     #sentences2 = []
     #sentences.each do |fragment|

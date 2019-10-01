@@ -16,9 +16,9 @@ class String
 
   def count_sentences
     sentences = self.split(".")
-    p sentences
     sentences.each do |fragment|
       fragment.split("?")
+      p fragment
     end
     puts sentences
     sentences.length

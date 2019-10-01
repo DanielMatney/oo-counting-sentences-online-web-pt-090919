@@ -21,6 +21,7 @@ class String
         sentences.delete(word)
       end
     end
+    sentences.join
     sentences.length
   end
 end

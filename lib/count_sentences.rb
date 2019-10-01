@@ -16,11 +16,13 @@ class String
 
   def count_sentences
     sentences = self.split(".")
+    sentences1 = []
+    sentences2 = []
     sentences.each do |fragment|
       fragment.split("?")
-      p fragment
+      sentences1 << fragment
     end
-    puts sentences
+    puts sentences1
     sentences.length
   end
 end

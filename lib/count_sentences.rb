@@ -20,6 +20,7 @@ class String
       if word == nil
         sentences.delete(word)
       end
+      puts sentences
     end
     sentences.join(" ")
     sentences = self.split("?")
@@ -35,7 +36,7 @@ class String
         sentences.delete(word)
       end
     end
-    p sentences.join(" ")
+    sentences.join(" ")
     sentences.length
   end
 end

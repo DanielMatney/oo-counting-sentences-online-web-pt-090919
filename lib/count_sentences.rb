@@ -15,16 +15,17 @@ class String
   end
 
   def count_sentences
-    sentences = self.split(".")
-    sentences1 = []
-    sentences2 = []
-    sentences.each do |fragment|
-      sentences1 << fragment.split("?")
-    end
-    sentences1.each do |fragment|
-      sentences2 << fragment.split("!")
-    end
-    return sentences1
-    sentences2.length
+    sentences = self.delete(" ")
+    sentences.split(".")
+   # sentences1 = []
+    #sentences2 = []
+    #sentences.each do |fragment|
+    #  sentences1 << fragment.split("?")
+    #end
+    #sentences1.each do |fragment|
+    #  sentences2 << fragment.split("!")
+    #end
+    #return sentences1
+    #sentences2.length
   end
 end

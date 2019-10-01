@@ -36,6 +36,6 @@ class String
       end
     end
     sentences.join(" ")
-    sentences.length
+    p sentences.length
   end
 end

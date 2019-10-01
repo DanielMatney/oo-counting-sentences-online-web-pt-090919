@@ -16,7 +16,8 @@ class String
 
   def count_sentences
     sentences = self.delete(" ")
-    sentences.split(".")
+    sentences = sentences.split(".")
+    
    # sentences1 = []
     #sentences2 = []
     #sentences.each do |fragment|
@@ -28,4 +29,5 @@ class String
     #return sentences1
     #sentences2.length
   end
+  sentences.length
 end

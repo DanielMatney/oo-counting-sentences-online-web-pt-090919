@@ -19,8 +19,7 @@ class String
     sentences1 = []
     sentences2 = []
     sentences.each do |fragment|
-      fragment.split("?")
-      sentences1 << fragment
+      sentences1 << fragment.split("?")
     end
     puts sentences1
     sentences.length

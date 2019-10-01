@@ -17,7 +17,7 @@ class String
   def count_sentences
     sentences = self.split(".")
     sentences = sentences.delete(nil)
-    sentences = sentences.join(".")
+    puts sentences
     sentences.length
   end
 end

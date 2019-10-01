@@ -19,6 +19,6 @@ class String
     self.split(".")!.each {sentences + 1)
     self.split("!")!.each {sentences + 1)
     self.split("?")!.each {sentences + 1)
-    self
+    sentences
   end
 end

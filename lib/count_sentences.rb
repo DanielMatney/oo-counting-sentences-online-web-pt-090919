@@ -18,7 +18,8 @@ class String
     sentences = self.split(".")
     sentences.each do |word|
       if word == nil
-        
+        sentences.delete(word)
+      end
     sentences.length
   end
 end

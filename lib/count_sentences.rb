@@ -23,6 +23,7 @@ class String
       puts sentences
     end
     sentences.join(" ")
+    puts sentences
     sentences.length
   end
 end

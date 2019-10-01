@@ -20,6 +20,7 @@ class String
       if word == nil
         sentences.delete(word)
       end
+    end
     sentences.length
   end
 end

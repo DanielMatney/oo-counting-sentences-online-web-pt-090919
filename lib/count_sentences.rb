@@ -22,8 +22,7 @@ class String
       end
       puts sentences
     end
-    sentences.join(" ")
-    puts sentences
+    sentences.join(" ")!
     sentences.length
   end
 end

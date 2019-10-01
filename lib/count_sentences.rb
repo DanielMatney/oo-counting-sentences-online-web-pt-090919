@@ -16,14 +16,13 @@ class String
 
   def count_sentences
     sentences = self.split(".")
-    puts sentences
     sentences.each do |word|
       if word == nil
         sentences.delete(word)
       end
     end
     sentences = sentences.join
-    puts sentences
+    
     sentences.length
   end
 end

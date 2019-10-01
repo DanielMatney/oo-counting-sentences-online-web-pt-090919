@@ -22,7 +22,7 @@ class String
       end
       puts sentences
     end
-    sentences.join!(" ")
+    sentences.join!
     sentences.length
   end
 end

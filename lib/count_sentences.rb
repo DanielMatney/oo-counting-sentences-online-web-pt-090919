@@ -23,6 +23,7 @@ class String
     end
     sentences1.each do |fragment|
       sentences2 << fragment.split("!")
+    end
     sentences2.length
   end
 end

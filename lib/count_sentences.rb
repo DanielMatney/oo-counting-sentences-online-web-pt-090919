@@ -18,7 +18,7 @@ class String
     sentences = self.split(".")
     p sentences
     sentences.each do |fragment|
-      sentence.split("?")
+      fragment.split("?")
     end
     puts sentences
     sentences.length

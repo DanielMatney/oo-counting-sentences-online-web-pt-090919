@@ -21,18 +21,6 @@ class String
         sentences.delete(word)
       end
     end
-    sentences = sentences.split("?")
-    sentences.each do |word|
-      if word == nil
-        sentences.delete(word)
-      end
-    end
-    sentences = sentences.split("!")
-    sentences.each do |word|
-      if word == nil
-        sentences.delete(word)
-      end
-    end
     sentences.length
   end
 end

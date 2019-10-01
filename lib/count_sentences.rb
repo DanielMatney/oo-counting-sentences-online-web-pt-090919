@@ -31,6 +31,7 @@ class String
     #end
     #return sentences1
     #sentences2.length
+    p sentences
   sentences.length
   end
 end

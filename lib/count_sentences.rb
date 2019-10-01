@@ -18,6 +18,6 @@ class String
     sentences = 0
     self.split(".")
     self.split("!")
-    puts self.split("?")
+    self.split("?")
   end
 end

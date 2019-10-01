@@ -16,11 +16,7 @@ class String
 
   def count_sentences
     sentences = self.split(".")
-    sentences.each do |word|
-      if word == nil
-        sentences.delete(word)
-      end
-    end
+    sentences.delete(nil)
     sentences.length
   end
 end

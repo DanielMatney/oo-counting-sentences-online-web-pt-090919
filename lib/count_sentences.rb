@@ -15,10 +15,10 @@ class String
   end
 
   def count_sentences
-    puts self
     sentences = self.split(".")
-    sentences.each do |sentence|
-      sentences << sentence.split("?")
+    p sentences
+    sentences.each do |fragment|
+      sentence.split("?")
     end
     puts sentences
     sentences.length

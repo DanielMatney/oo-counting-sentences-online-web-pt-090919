@@ -21,14 +21,14 @@ class String
         sentences.delete(word)
       end
     end
-    sentences = self.split("?")
+    sentences = sentences.split("?")
     sentences.each do |word|
       if word == nil
         sentences.delete(word)
       end
     end
     sentences = sentences.join
-    sentences = self.split("!")
+    sentences = sentences.split("!")
     sentences.each do |word|
       if word == nil
         sentences.delete(word)

@@ -21,6 +21,7 @@ class String
     sentences = sentences.split("!")
     sentences = sentences.join(".")
     sentences = sentences.split(".")
+    sentences.delete(" ")
    # sentences1 = []
     #sentences2 = []
     #sentences.each do |fragment|
@@ -31,7 +32,6 @@ class String
     #end
     #return sentences1
     #sentences2.length
-    p sentences
   sentences.length
   end
 end
